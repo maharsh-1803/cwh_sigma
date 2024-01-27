@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #776394 , #b19dcf);
+}
+.itme{
+    margin: 25px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.itme:hover{
+    color: white;
+}
