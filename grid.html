@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 33vw 33vw 33vw;
+            justify-content: center;
+            gap: 5px;
+            
+        }
+        .item{
+            height: 15vh;
+            text-align: center;
+            
+        }
+        .item1{
+            grid-column: 1/3;
+            background-color: blue;
+            color: white;
+            border-radius: 15px;
+        }
+        .item2{
+            background-color: brown;
+            color:white;
+            border-radius: 15px;
+        }
+        .item3{
+            grid-column: 1/4;
+            background-color: aqua;
+            border-radius: 15px;
+        }
+        .item4{
+            background-color: blueviolet;
+            border-radius: 15px;
+        }
+        .item5{
+            background-color: green;
+            border-radius: 15px;
+            grid-column: 2/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nostrum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore ut obcaecati quaerat sequi voluptatem odit. Cumque temporibus quaerat nisi consequatur, repellat hic! Hic distinctio explicabo nulla perspiciatis dolorum dolor facilis voluptatibus blanditiis autem. Ad voluptates voluptas deleniti dolorum blanditiis reprehenderit doloribus similique amet sit rem cupiditate, tenetur at quos ratione.</p></div>
+        <div class="item item2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, placeat?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat ad sed quis maiores quae. Dolore?</p></div>
+        <div class="item item3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa commodi blanditiis necessitatibus velit quidem a voluptas iusto in modi voluptate, ratione hic reiciendis at ad vitae nihil deserunt laboriosam maxime omnis assumenda? Voluptatum facere reiciendis, dignissimos excepturi repellendus commodi nihil nulla doloremque non? Consectetur, tempore ducimus animi veritatis nulla quisquam! Ipsum consequuntur doloribus ut laborum quisquam alias veritatis repellendus recusandae inventore magnam velit modi nemo sunt autem neque fuga, voluptatum corrupti soluta porro dolores laboriosam illo ipsa harum dolore? Culpa voluptates ex, quis velit dolore maiores repudiandae libero aliquid vitae quaerat. Accusamus doloremque unde dolores tempora, officiis facere placeat.</p></div>
+        <div class="item item4"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, expedita?</p></div>
+        <div class="item item5"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque excepturi tempore velit magni expedita facilis obcaecati odio, fuga deserunt voluptatem!</p></div>
+    </div>
+</body>
+</html>
